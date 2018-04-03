@@ -14,6 +14,17 @@ body, html {
     height: 100%;
     line-height: 1.8;
 }
+    .a {
+        
+    } 
+    .b {
+        display:none;
+    }
+    .a:hover .b {
+  display: block;
+}
+    
+    
 /* Full height image header */
 .bgimg-1 {
     background-position: center;
@@ -27,9 +38,23 @@ body, html {
 .w3-bar .w3-button {
     padding: 16px;
 }
+    .center-div
+{
+     margin: 0 auto;
+     width: 500px; 
+}
 </style>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
+    
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card" id="myNavbar" >
@@ -194,45 +219,10 @@ body, html {
 <div class="w3-container" style="padding:128px 16px" id="work">
   <h3 class="w3-center">OUR Events</h3>
   <p class="w3-center w3-large">What we've done in the past</p>
-
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-      <img src="/images/11329906_934429939912530_2373772232915567286_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="event discription">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/11329906_934429939912530_2373772232915567286_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="event discription">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/11329906_934429939912530_2373772232915567286_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="event discription">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/11329906_934429939912530_2373772232915567286_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="event discription">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l3 m6">
-      <img src="/images/11329906_934429939912530_2373772232915567286_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="event discription">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/11329906_934429939912530_2373772232915567286_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="event discription">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/11329906_934429939912530_2373772232915567286_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="event discription">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/11329906_934429939912530_2373772232915567286_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="event discription">
-    </div>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
+<div>
+    <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+<link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+<ul class="juicer-feed" data-feed-id="275646249124239"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer</a></h1></ul>
 </div>
 
 <!-- Skills Section -->
@@ -246,17 +236,17 @@ body, html {
       tempor incididunt ut labore et dolore.</p>
     </div>
     <div class="w3-col m6">
-      <p class="w3-wide"><i class="fa fa-heart w3-margin-right"></i>Spirituality</p>
+      <p class="w3-wide"><i class="fa fa-heart w3-margin-right"></i>Islamic Studies</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:33%">33%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:66%">60%</div>
       </div>
-      <p class="w3-wide"><i class="fa fa-book w3-margin-right"></i>Traditional Education</p>
+      <p class="w3-wide"><i class="fa fa-book w3-margin-right"></i>Electives</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:33%">33%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:30%">30%</div>
       </div>
-      <p class="w3-wide"><i class="fa fa-handshake-o w3-margin-right"></i>Social Exploration</p>
+      <p class="w3-wide"><i class="fa fa-handshake-o w3-margin-right"></i>Service Projects</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:33%">33%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:10%">10%</div>
       </div>
     </div>
   </div>
@@ -264,57 +254,62 @@ body, html {
 
     
 <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-  <h3>PRICING</h3>
-  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+  <h2>OUR PROGRAMS</h2>
+  <p class="w3-large">Choose the program that best suits you!</p>
   <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-quarter w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Pre-school</li>
-        <li class="w3-padding-16"><b>2-5</b> Age</li>
-          <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 450</h2>
-          <span class="w3-opacity">per year</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow a">
+        <li class="w3-black w3-xlarge w3-padding-32 ">Elementry School</li>
+        <li class="w3-padding-4 w3-light-grey b">Grades: <b>Pre-K/KG</b></li>
+        <li class="w3-padding-4 b">Course: <b>Arabic Emersion</b></li>
+        <li class="w3-padding-4 w3-light-grey b">Stories of Prophets thru Arts and Crafts</li>
+        <li class="w3-padding-4 b">Seer'ah of our Prophet</li>
+        <li class="w3-padding-4 w3-light-grey b">Muslim Heros</li>
+        <li class="w3-padding-4 b">Sur'ah memorization with meaning</li>
+        <li class="w3-padding-4 w3-light-grey b">Fitness/Jr. Chefs/Islamic Arts</li>
+        <li class="w3-padding-4 b">Critical Learning-English and Math Enrichment</li>
+        <li class="w3-padding-4 w3-pale-red b"><b><h5>Mandatory Classes:</h5></b></li>
+        <li class="w3-padding-4 w3-pale-red b">Arabic and Quranic Studies</li>
+        <li class="w3-padding-4 w3-pale-red b">Islamic Studies</li>
+        <li class="w3-light-grey w3-padding-16 b">
           <button class="w3-button w3-black w3-padding-large">Sign Up</button>
         </li>
       </ul>
     </div>
-    <div class="w3-quarter w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Elementry School</li>
-        <li class="w3-padding-16"><b>1-4</b> Grade</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 450</h2>
-          <span class="w3-opacity">per year</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-quarter w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow a">
         <li class="w3-black w3-xlarge w3-padding-32">Middle School</li>
-        <li class="w3-padding-16"><b>5-7</b> Grade</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 450</h2>
-          <span class="w3-opacity">per year</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
+        <li class="w3-padding-4 b">Grades: <b>1-4</b></li>
+          <li class="w3-padding-4 w3-light-grey ">Course: <b>Knowing the Companions of our Prophet</b></li>
+          <li class="w3-padding-8 ">Conversational Urdu</li>
+          <li class="w3-padding-8 w3-light-grey ">Islam-Contemporary Topics</li>
+          <li class="w3-padding-8 ">Islam's Contribution to Science and the Modern World</li>
+          <li class="w3-padding-8 w3-light-grey ">Islamic History</li>
+          <li class="w3-padding-8 ">Critical Learning-English and Math Enrichment</li>
+          <li class="w3-padding-8 w3-light-grey ">-</li>
+          <li class="w3-padding-8 w3-pale-red "><b><h5>Mandatory Classes:</h5></b></li>
+          <li class="w3-padding-8 w3-pale-red ">Islamic Studies</li>
+          <li class="w3-padding-8 w3-pale-red ">Arabic Flex Learn</li>
+          <li class="w3-light-grey w3-padding-16 ">
           <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
+          </li>
       </ul>
     </div>
-      <div class="w3-quarter w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow a">
         <li class="w3-black w3-xlarge w3-padding-32">High School</li>
-        <li class="w3-padding-16"><b>8-10</b> Grade</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 450</h2>
-          <span class="w3-opacity">per year</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
+        <li class="w3-padding-8 w3-light-grey b">Grades: <b>5-7</b></li>
+          <li class="w3-padding-8 b"><b>Boys:</b> Lead Salat/How to be a Leader</li>
+          <li class="w3-padding-8 w3-light-grey b"><b>Girls:</b> How to be a Leader/Life Skills</li>
+          <li class="w3-padding-8 b">See'ah of our Prophet</li>
+          <li class="w3-padding-8 w3-light-grey b">Islamic Art and Architecture/Photography</li>
+          <li class="w3-padding-8 b">Islamic History-the 20th Century and Beyond...</li>
+          <li class="w3-padding-8 w3-light-grey b">Qur'anic Arabic or Islam 101</li>
+          <li class="w3-padding-8 b">Model UN/ACT Preparation</li>
+          <li class="w3-padding-8 w3-pale-red b"><b><h5>Mandatory Classes:</h5></b></li>
+          <li class="w3-padding-8 w3-pale-red b">-</li>
+          <li class="w3-padding-8 w3-pale-red b">-</li>
+        <li class="w3-light-grey w3-padding-16 b">
           <button class="w3-button w3-black w3-padding-large">Sign Up</button>
         </li>
       </ul>
@@ -328,8 +323,8 @@ body, html {
   <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-half">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Location: Villa Park, IL</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 123.456.7890</p>
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
       <br>
       <form action="/action_page.php" target="_blank">
@@ -346,8 +341,15 @@ body, html {
     </div>
     <div class="w3-half">
       <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
-    </div>
+    
+        <iframe
+  width="100%"
+  height="510"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBsHF0npXB6eeuct-QxiKfoPunHq1LpflE
+    &q=Islamic+Foundation+of+Villa+Park" allowfullscreen>
+</iframe>
+    
   </div>
 </div>
 
@@ -362,57 +364,7 @@ body, html {
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Gray Charlier</p>
+  <p>Muslim Leadership Academy</p>
 </footer>
- 
-<!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-    if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
-    } else {
-        mySidebar.style.display = 'block';
-    }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
 </body>
 </html>
